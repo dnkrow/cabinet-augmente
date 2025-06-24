@@ -1,0 +1,20 @@
+/* Import de la police professionnelle "Inter" depuis Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/* Réinitialisation de base et définition de la police pour toute l'application */
+body {
+  margin: 0;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f8f9fa; /* Un gris très clair pour le fond */
+}
+
+/* Amélioration du modèle de boîte pour tous les éléments */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}

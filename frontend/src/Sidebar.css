@@ -1,0 +1,36 @@
+.sidebar {
+  width: 300px;
+  background-color: var(--surface-color);
+  border-right: 1px solid var(--border-color);
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.sidebar-content {
+  padding: 1rem;
+  overflow-y: auto;
+  flex-grow: 1;
+}
+
+.sidebar-footer {
+  padding: 1rem;
+  border-top: 1px solid var(--border-color);
+}
+
+.logout-button {
+  width: 100%;
+  padding: 10px;
+  background-color: transparent;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  color: var(--text-muted-color);
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.logout-button:hover {
+  background-color: #f8f9fa;
+  color: var(--text-color);
+}
